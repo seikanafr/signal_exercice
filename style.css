@@ -1,0 +1,130 @@
+h1 {
+  padding: 5px;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+  font-size: 1.7rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+  left: 800px;
+}
+
+p {
+  margin: 20px;
+}
+
+.core {
+  display: flex;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.computer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navhead {
+  display: flex;
+  align-items: centr;
+}
+
+.logoimg {
+  max-height: 7vh;
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+}
+
+.tweeter_icon {
+  max-height: 150px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imageone {
+  max-height: 33vh;
+  background-color: rgb(137, 188, 255);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 130px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.imagetow {
+  max-height: 33vh;
+  background-color: rgb(137, 188, 255);
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 130px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.Android_btn {
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(44, 111, 211);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 2px rgba(23, 70, 199, 0.445);
+  margin: 10px;
+  padding: 12px;
+  transition-duration: 0.2s;
+}
+
+.Android_btn:hover {
+  background-color: rgb(37, 37, 197);
+}
+
+.computer_btn {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(44, 111, 211);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 2px rgba(23, 70, 199, 0.445);
+  margin: 10px;
+  padding: 12px;
+  transition-duration: 0.2s;
+}
+
+.computer_btn:hover {
+  background-color: rgb(37, 37, 197);
+}
+
+.text-style {
+  display: flex;
+  align-items: flex-end;
+}
+
+.text-mobile {
+  padding: 20px;
+  padding-left: 30px;
+}
+.text-computer {
+  padding: 20px;
+  padding-left: 30px;
+  background-color: rgb(238, 238, 238);
+}
+.other {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
